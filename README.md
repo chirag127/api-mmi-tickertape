@@ -1,6 +1,6 @@
 # Oriz MMI — Tickertape Market Mood Index Mirror
 
-[![GitHub stars](https://img.shields.io/github/stars/chirag127/mmi-api?style=social)](https://github.com/chirag127/mmi-api/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/chirag127/mmi-tickertape?style=social)](https://github.com/chirag127/mmi-tickertape/stargazers)
 
 ![Oriz MMI](logo.png)
 
@@ -10,9 +10,9 @@ Hourly mirror of [Tickertape's Market Mood Index](https://www.tickertape.in/mark
 
 | URL | Description |
 | --- | --- |
-| `https://chirag127.github.io/oriz-mmi-tickertape-mmi-api/latest.json` | Most recent scrape |
-| `https://chirag127.github.io/oriz-mmi-tickertape-mmi-api/<YYYY-MM-DD>.json` | A specific day (overwritten on each hourly run) |
-| `https://raw.githubusercontent.com/chirag127/oriz-mmi-tickertape-mmi-api/main/data/latest.json` | Same data via raw (no Pages dependency) |
+| `https://chirag127.github.io/mmi-tickertape/latest.json` | Most recent scrape |
+| `https://chirag127.github.io/mmi-tickertape/<YYYY-MM-DD>.json` | A specific day (overwritten on each hourly run) |
+| `https://raw.githubusercontent.com/chirag127/mmi-tickertape/main/data/latest.json` | Same data via raw (no Pages dependency) |
 
 ## Response shape (`latest.json`)
 
